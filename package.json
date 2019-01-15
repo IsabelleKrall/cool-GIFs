@@ -2,19 +2,26 @@
   "name": "cool-gifs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "private": "true",
+  "main": "rollup.config.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "rollup --config --watch",
+    "build": "rollup --config --environment NODE_ENV:production"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IsabelleKrall/cool-GIFs.git"
   },
-  "author": "",
+  "author": "Isabelle Krall",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/IsabelleKrall/cool-GIFs/issues"
   },
-  "homepage": "https://github.com/IsabelleKrall/cool-GIFs#readme"
+  "homepage": "https://github.com/IsabelleKrall/cool-GIFs#readme",
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "rollup": "^1.1.0",
+    "rollup-plugin-browsersync": "^1.0.0",
+    "rollup-plugin-postcss": "^1.6.3"
+  }
 }
