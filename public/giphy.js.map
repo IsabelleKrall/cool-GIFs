@@ -1,0 +1,1 @@
+{"version":3,"file":"giphy.js","sources":["../src/scripts/index.js"],"sourcesContent":["'use strict';\n\nimport '../styles/index.scss';\n\n\n//fetch api here\n\n\n// import queryString\n"],"names":[],"mappings":";;;CAQA;;;;"}
